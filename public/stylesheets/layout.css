@@ -7,6 +7,19 @@ body {
     color: #236192; }
     body a:hover {
       text-decoration: underline; }
+  body h1 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 0.5rem; }
+  body h2 {
+    margin-bottom: 0.5rem;
+    font-size: 32px;
+    font-weight: 500; }
+  body p, body li {
+    font-size: 24px;
+    font-weight: 300;
+    margin-top: 0;
+    letter-spacing: 0.2px; }
   body div#content-pane {
     max-width: 1200px;
     margin: auto;
@@ -18,10 +31,7 @@ body {
     body div#content-pane div#head {
       grid-column: span 2; }
       body div#content-pane div#head h1 {
-        text-align: center;
-        font-size: 60px;
-        font-weight: 500;
-        margin-bottom: 0.5rem; }
+        text-align: center; }
         body div#content-pane div#head h1:after {
           content: '';
           display: block;
@@ -51,8 +61,5 @@ div.card {
   background: #fff; }
   div.card h1:first-child, div.card h2:first-child, div.card h3:first-child, div.card h4:first-child, div.card h5:first-child {
     margin-top: 0; }
-  div.card p {
-    font-size: 24px;
-    font-weight: 300; }
 
 /*# sourceMappingURL=layout.css.map */
