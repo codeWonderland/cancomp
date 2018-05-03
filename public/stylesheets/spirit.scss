@@ -1,0 +1,22 @@
+div#spirit-basics {
+  @media only screen and (min-width: 1200px) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 1rem;
+  }
+
+  img#spirit-photo {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+
+  h1#spirit-name {
+    font-size: 42px;
+    font-weight: 700;
+  }
+}
+
+div#main {
+  margin-top: 1rem;
+}

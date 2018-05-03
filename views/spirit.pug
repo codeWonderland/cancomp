@@ -1,0 +1,20 @@
+extends layout
+
+block styles
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Lato:300,400,700")
+    link(rel='stylesheet', href='/stylesheets/spirit.css')
+
+block content
+    div#content-pane
+        div#spirit-basics
+            img#spirit-photo(src 'https://drive.google.com/uc?id=1u4vRa65sn9lY_REZh53AIy5If3Lodc4s')
+            div.card
+                h1#spirit-name(data-id=id)
+                p#spirit-type
+                p#pseudonyms
+                p#relationships
+                p#significance
+        div#main.card
+
+block scripts
+    script(src='/scripts/spirit.js')

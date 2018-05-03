@@ -1,0 +1,18 @@
+doctype html
+html
+  head
+    title The Candomble Compendium
+    link(rel='stylesheet', href='/stylesheets/layout.css')
+    block styles
+  body
+    div#content-pane
+      div#head
+        h1 The Candomble Compendium
+        p.nav
+          a(href="/") Home
+          |  |
+          a(href="/about") About
+      block content
+
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+    block scripts

@@ -1,0 +1,90 @@
+body
+{
+  background: #b6b6b6;
+  margin: 0;
+
+  *
+  {
+    font-family: Lato, sans-serif;
+  }
+
+  a
+  {
+    color: #236192;
+
+    &:hover
+    {
+      text-decoration: underline;
+    }
+  }
+
+  div#content-pane {
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+    width: calc(100% - 2rem);
+    min-height: 100vh;
+    background: #e6e6e6;
+    padding: 1rem;
+
+    div#head {
+      grid-column: span 2;
+
+      h1 {
+        text-align: center;
+        font-size: 60px;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+
+        &:after {
+          content: '';
+          display: block;
+          width: 5rem;
+          height: 2px;
+          margin: 2rem auto 0;
+          background: #000;
+        }
+      }
+
+      p.nav {
+        text-align: center;
+        font-size: 24px;
+        font-weight: 300;
+      }
+    }
+  }
+}
+
+div.loading
+{
+  width: 50px;
+  height: 50px;
+  margin: 3rem auto;
+  background: transparent;
+  border: 1rem solid #e6e6e6;
+  border-top: 1rem solid #236192;
+  animation: spin 1s linear infinite;
+  border-radius: 50%;
+}
+
+div.card
+{
+  padding: 1rem;
+  border-radius: 3px;
+  box-shadow: 1.5px 1.5px 3px rgba(0,0,0,0.35);
+  background: #fff;
+
+  h1, h2, h3, h4, h5
+  {
+    &:first-child
+    {
+      margin-top: 0;
+    }
+  }
+
+  p
+  {
+    font-size: 24px;
+    font-weight: 300;
+  }
+}

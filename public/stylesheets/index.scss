@@ -1,0 +1,41 @@
+div#main
+{
+  display: grid;
+
+  @media only screen and (min-width: 1200px)
+  {
+    grid-template-columns: repeat(auto-fit, calc(300px - 1rem));
+  }
+
+  @media only screen and (max-width: 1200px)
+  {
+    grid-template-columns: repeat(auto-fit, minmax(calc(300px - 0.5rem), 1fr));
+  }
+
+  grid-gap: 1rem;
+
+  div.spirit
+  {
+    img.spirit-photo
+    {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    div.spirit-preview
+    {
+      padding: 1rem;
+      height: calc(100% - 200px);
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+
+      p.spirit-name
+      {
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+  }
+}
