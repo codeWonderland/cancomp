@@ -75,7 +75,7 @@
     var i, len, name, pseudonymHTML, pseudonyms;
     console.log('got spirits');
     pseudonyms = data[0];
-    pseudonymHTML = 'Pseudonyms: <br>';
+    pseudonymHTML = '<strong>Pseudonyms:</strong> <br>';
     if (pseudonyms.length) {
       for (i = 0, len = pseudonyms.length; i < len; i++) {
         name = pseudonyms[i];
@@ -90,7 +90,7 @@
     var i, len, name, relationships, relationshipsHTML;
     console.log('got relationships');
     relationships = data[0];
-    relationshipsHTML = 'Relationships: <br>';
+    relationshipsHTML = '<strong>Relationships:</strong> <br>';
     if (relationships.length) {
       for (i = 0, len = relationships.length; i < len; i++) {
         name = relationships[i];
@@ -105,7 +105,7 @@
     var i, len, rep, reps, repsHTML;
     console.log('got significance');
     reps = data[0];
-    repsHTML = 'Represents: <br>';
+    repsHTML = '<strong>Represents:</strong> <br>';
     if (reps.length) {
       for (i = 0, len = reps.length; i < len; i++) {
         rep = reps[i];

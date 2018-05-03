@@ -67,7 +67,7 @@ makePseudonyms = (data) ->
   console.log 'got spirits'
   pseudonyms  = data[0]
 
-  pseudonymHTML = 'Pseudonyms: <br>'
+  pseudonymHTML = '<strong>Pseudonyms:</strong> <br>'
 
   if pseudonyms.length
     for name in pseudonyms
@@ -81,7 +81,7 @@ makeRelationships = (data) ->
   console.log 'got relationships'
   relationships  = data[0]
 
-  relationshipsHTML = 'Relationships: <br>'
+  relationshipsHTML = '<strong>Relationships:</strong> <br>'
 
   if relationships.length
     for name in relationships
@@ -98,7 +98,7 @@ makeSignificance = (data) ->
   console.log 'got significance'
   reps  = data[0]
 
-  repsHTML = 'Represents: <br>'
+  repsHTML = '<strong>Represents:</strong> <br>'
 
   if reps.length
     for rep in reps
