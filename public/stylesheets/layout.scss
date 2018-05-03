@@ -11,6 +11,10 @@ body
   a
   {
     color: #236192;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0;
+    letter-spacing: 0.2px;
 
     &:hover
     {
@@ -21,8 +25,8 @@ body
   h1
   {
     font-size: 60px;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
   }
 
   h2
@@ -60,7 +64,7 @@ body
           display: block;
           width: 5rem;
           height: 2px;
-          margin: 2rem auto 0;
+          margin: 1.5rem auto 0;
           background: #000;
         }
       }

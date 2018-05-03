@@ -4,13 +4,17 @@ body {
   body * {
     font-family: Lato, sans-serif; }
   body a {
-    color: #236192; }
+    color: #236192;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0;
+    letter-spacing: 0.2px; }
     body a:hover {
       text-decoration: underline; }
   body h1 {
     font-size: 60px;
-    font-weight: 500;
-    margin-bottom: 0.5rem; }
+    font-weight: 300;
+    margin-bottom: 1rem; }
   body h2 {
     margin-bottom: 0.5rem;
     font-size: 32px;
@@ -37,7 +41,7 @@ body {
           display: block;
           width: 5rem;
           height: 2px;
-          margin: 2rem auto 0;
+          margin: 1.5rem auto 0;
           background: #000; }
       body div#content-pane div#head p.nav {
         text-align: center;

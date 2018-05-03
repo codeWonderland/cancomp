@@ -18,7 +18,7 @@ div#main {
     flex-flow: column;
     justify-content: space-between; }
     div#main div.spirit div.spirit-preview p.spirit-name {
-      font-size: 18px;
-      font-weight: 700; }
+      font-weight: 500;
+      margin-bottom: 0; }
 
 /*# sourceMappingURL=index.css.map */
